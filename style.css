@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: 80px 100vh 70px;
+  grid-gap: 4px;
+  grid-template-areas:
+    "h h h h h h h h h h h h h"
+    "n n a a a a a a a a a d d"
+    "n n f f f f f f f f f f f";
+}
+.Header {
+  background-color: #fcd800;
+  grid-area: h;
+  padding: 16px;
+}
+.Nav {
+  background-color: #fcd800;
+  grid-area: n;
+  padding: 16px;
+}
+.Article {
+  background-color: #fcd800;
+  grid-area: a;
+  padding: 16px;
+}
+.Ads {
+  background-color: #fcd800;
+  grid-area: d;
+  padding: 16px;
+}
+.Footer {
+  background-color: #fcd800;
+  grid-area: f;
+  padding: 16px;
+}
+
+/* --Farhan Sadik-- */
